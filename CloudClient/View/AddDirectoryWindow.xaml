@@ -1,0 +1,14 @@
+﻿<Window x:Class="DataCloud.View.AddDirectoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataCloud.View"
+        mc:Ignorable="d"
+        Title="AddDirectoryWindow" Height="178.275" Width="291.054">
+    <Grid>
+        <Label Content="Enter directory name" Margin="44,10,54,90" FontSize="14" FontWeight="Bold"></Label>
+        <TextBox Name="tb_DirectoryName" HorizontalAlignment="Left" Height="29" Margin="31,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <Button Margin="147,86,35,29" Content="Создать" Click="btn_CreateDirectory" Height="25"/>
+    </Grid>
+</Window>
